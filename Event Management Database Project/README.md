@@ -38,7 +38,7 @@ The project includes the following tables:
 ### Installation Steps
 1. **Clone the Repository**:
    ```bash
-  download the project folder Event Management Database Project
+     download the project folder Event Management Database Project
 2. **Create the database**
     Open your PostgreSQL client and run the following command to create the database:
     CREATE DATABASE event_management;
