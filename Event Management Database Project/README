@@ -1,6 +1,6 @@
-# Event Management Database Project
+#Event Management Database Project
 
-## Overview
+##Overview
 The Event Management Database Project is designed to manage various aspects of events, including organizers, venues, attendees, schedules, tickets, and feedback. This project utilizes PostgreSQL as the database management system and includes SQL scripts for creating and managing the database schema, inserting data, and maintaining data integrity through triggers and procedures.
 
 ## Features
@@ -13,7 +13,7 @@ The Event Management Database Project is designed to manage various aspects of e
 - **Feedback**: Collect attendee feedback on events.
 - **Procedures and Triggers**: Automate tasks and maintain data integrity.
 
-## Database Schema
+##Database Schema
 The project includes the following tables:
 - `Organizer`
 - `Venue`
@@ -24,18 +24,18 @@ The project includes the following tables:
 - `Feedback`
 - `Event_Attendee` (join table)
 
-### Relationships
+###Relationships
 - Events are linked to organizers and venues.
 - Attendees can register for multiple events and provide feedback.
 - Schedules are associated with specific events.
 
-## Setup Instructions
+##Setup Instructions
 
-### Prerequisites
+###Prerequisites
 - PostgreSQL installed on your machine.
 - Access to a PostgreSQL client (e.g., pgAdmin, psql).
 
-### Installation Steps
+###Installation Steps
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/event-management-db.git
